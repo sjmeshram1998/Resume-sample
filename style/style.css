@@ -1,0 +1,37 @@
+.container  {
+    /* padding: 20px; */
+    border: 1px solid black;
+    /* width: 950px; */
+    margin-bottom: 1rem;
+    }
+    .section1 {
+    background-color: black;
+    /* border-right: 1px solid black; */
+    }
+    .color {
+    color: white;
+    }
+    .hrcolor {
+    color: #f4ad13;
+    /* height: 5px; */
+    height:3px !important;
+    border-width:0;
+    }
+    .section-padding {
+    padding: 3rem;
+    background-color: #f4ad13;
+    margin-top: 2.5rem;
+    }
+    .section-side {
+    padding-left: 3rem;
+    }
+    .pd {
+        padding: 2rem;
+    }
+    @media screen and (min-width: 992px)
+    {
+        .container {
+            width: 950px;
+        }
+    }
+ 
